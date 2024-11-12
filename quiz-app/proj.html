@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="proj.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h2 id="question">Question Text</h2>
+    <ul id="options-list">
+      <li>
+        <input type="radio" name="option" id="option1" class="option">
+        <label for="option1" id="option1-label">Option 1</label>
+      </li>
+      <li>
+        <input type="radio" name="option" id="option2" class="option">
+        <label for="option2" id="option2-label">Option 2</label>
+      </li>
+      <li>
+        <input type="radio" name="option" id="option3" class="option">
+        <label for="option3" id="option3-label">Option 3</label>
+      </li>
+      <li>
+        <input type="radio" name="option" id="option4" class="option">
+        <label for="option4" id="option4-label">Option 4</label>
+      </li>
+    </ul>
+    <button onclick="submitAnswer()">Submit</button>
+    <button onclick="resetQuiz()" id="reset-button" style="display: none;">Restart Quiz</button>
+    <h3 id="score" style="display: none;">Your Score: 0</h3>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+    <script src="proj.js"></script>
+</body>
+</html>
